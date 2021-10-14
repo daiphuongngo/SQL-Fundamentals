@@ -7,13 +7,13 @@ I have splitted this repository into several folders as below:
 
 ### 1/ Introduction to SQL
 
-#### 1.1/ Selecting columns
+Selecting columns
 
-#### 1.2/ Filtering rows
+Filtering rows
 
-#### 1.3/ Aggregate Functions
+Aggregate Functions
 
-#### 1.4/ Sorting and grouping
+Sorting and grouping
 
 
 ### 2/ Introduction to joins
@@ -34,4 +34,49 @@ Case when and then
 
 Inner challenge
 
+### 3/ Set theory clauses
+
+
+Union
+
+Union (2)
+
+Union all
+
+Intersect
+
+Intersect (2)
+
+Except
+
+Except (2)
+
+Semi-join
+
+Diagnosing problems using anti-join
+
+Set theory challenge
+
+
+### 4/ Subqueries
+
+Subquery inside where
+
+Subquery inside where (2)
+
+Subquery inside select
+
+Subquery inside from
+
+Advanced subquery
+
+Subquery challenge
+
+Subquery review
+
+Final challenge
+
+Final challenge (2)
+
+Final challenge (3)
 
