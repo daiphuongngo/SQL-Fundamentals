@@ -102,3 +102,96 @@ Final challenge (2)
 
 Final challenge (3)
 
+## Intermediate SQL
+
+### 1/ We'll take the CASE
+
+Basic CASE statements
+
+CASE statements comparing column values
+
+CASE statements comparing two column values part 2
+
+In CASE of rivalry
+
+Filtering your CASE statement
+
+COUNT using CASE WHEN
+
+COUNT and CASE WHEN with multiple conditions
+
+Calculating percent with CASE and AVG
+
+### 2/ Short and Simple Subqueries
+
+Filtering using scalar subqueries
+
+Filtering using a subquery with a list
+
+Filtering with more complex subquery conditions
+
+Joining Subqueries in FROM
+
+Building on Subqueries in FROM
+
+Add a subquery to the SELECT clause
+
+Subqueries in Select for Calculations
+
+Subqueries everywhere! And best practices!
+
+ALL the subqueries EVERYWHERE
+
+Add a subquery in FROM
+
+Add a subquery in SELECT
+
+### 3/ Correlated Queries, Nested Queries, and Common Table Expressions
+
+Basic Correlated Subqueries
+
+Correlated subquery with multiple conditions
+
+Nested subqueries
+
+Nested simple subqueries
+
+Nest a subquery in FROM
+
+Clean up with CTEs
+
+Organizing with CTEs
+
+CTEs with nested subqueries
+
+Get team names with a subquery
+
+Get team names with correlated subqueries
+
+Get team names with CTEs
+
+Which technique to use?
+
+### 4/ Window Functions
+
+The match is OVER
+
+What's OVER here?
+
+Flip OVER your results
+
+PARTITION BY a column
+
+PARTITION BY multiple columns
+
+Slide to the left
+
+Slide to the right
+
+Setting up the home team CTE
+
+Setting up the away team CTE
+
+Putting the CTEs together
+
+Add a window function
