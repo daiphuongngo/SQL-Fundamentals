@@ -7,13 +7,67 @@ I have splitted this repository into several folders as below:
 
 ## Introduction to SQL
 
-Selecting columns
+### 1/Selecting columns
 
-Filtering rows
+Onboarding | Errors
 
-Aggregate Functions
+Onboarding | Multi-step Exercises
 
-Sorting and grouping
+SELECTing single columns
+
+SELECTing multiple columns
+
+SELECT DISTINCT
+
+Practice with COUNT
+
+### 2/ Filtering rows
+
+Simple filtering of numeric values
+
+Simple filtering of text
+
+WHERE AND
+
+WHERE AND OR (2)
+
+BETWEEN (2)
+
+WHERE IN
+
+NULL and IS NULL
+
+LIKE and NOT LIKE
+
+### 3/ Aggregate Functions
+
+Aggregate functions practice
+
+Combining aggregate functions with WHERE
+
+It's AS simple AS aliasing
+
+Even more aliasing
+
+### 4/ Sorting and grouping
+
+Sorting single columns
+
+Sorting single columns (2)
+
+Sorting single columns (DESC)
+
+Sorting multiple columns
+
+GROUP BY practice
+
+GROUP BY practice (2)
+
+All together now
+
+All together now (2)
+
+A taste of things to come
 
 
 ## Joining Data in SQL
