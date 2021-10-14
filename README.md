@@ -16,3 +16,22 @@ I have splitted this repository into several folders as below:
 #### 1.4/ Sorting and grouping
 
 
+### 2/ Introduction to joins
+
+Inner join
+
+Inner join (2)
+
+Inner join (3)
+
+Review inner join using on
+
+Inner join with using
+
+Self-join
+
+Case when and then
+
+Inner challenge
+
+
