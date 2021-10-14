@@ -5,7 +5,7 @@ It is surely very fun to practice them often and helpful to understand and write
 
 I have splitted this repository into several folders as below:
 
-### 1/ Introduction to SQL
+## Introduction to SQL
 
 Selecting columns
 
