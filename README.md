@@ -16,7 +16,9 @@ Aggregate Functions
 Sorting and grouping
 
 
-### 2/ Introduction to joins
+## Joining Data in SQL
+
+### 1/ Introduction to joins
 
 Inner join
 
@@ -34,8 +36,29 @@ Case when and then
 
 Inner challenge
 
-### 3/ Set theory clauses
+### 2/ Outer joins and cross joins
 
+Left Join
+
+Left join (2)
+
+Left join (3)
+
+Right join
+
+Full join
+
+Full join (2)
+
+Full join (3)
+
+Review outer joins
+
+A table of two cities
+
+Outer challenge
+
+### 3/ Set theory clauses
 
 Union
 
@@ -56,7 +79,6 @@ Semi-join
 Diagnosing problems using anti-join
 
 Set theory challenge
-
 
 ### 4/ Subqueries
 
