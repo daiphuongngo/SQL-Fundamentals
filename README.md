@@ -7,25 +7,29 @@ I have splitted this repository into several folders as below:
 
 ## Introduction to SQL
 
-### 1/Selecting columns
-
-Dataset: IMDb Film 
+### Dataset: IMDb Film 
 
 - people: 
+
 | idb | name | birthdate | deathdate |
 |-|-|-|-|
 
 - films: 
+
 | id | title | release_year | country	duration | language | certification | gross | budget |
 |-|-|-|-|-|-|-|-|
 
 - reviews:
+
 | id | film_id | num_user | num_critic | imdb_score | num_votes | facebook_likes |
 |-|-|-|-|-|-|-|
 
 - roles: 
+
 | id | film_id | person_id | role |
 |-|-|-|-|
+
+### 1/Selecting columns
 
 Onboarding | Errors
 
@@ -93,30 +97,37 @@ A taste of things to come
 ### Dataset:
 
 - countries_plus: 
+
 | name |	continent |	code | surface_area | geosize_group |
 |-|-|-|-|-|
 
 - countries:  
+
 | code | name | continent | region | surface_area | indep_year | local_name | gov_form | capital | cap_long | cap_lat |
 |-|-|-|-|-|-|-|-|-|-|-|
 
 - populations: 
+
 | pop_id | country_code | year | fertility_rate | life_expectancy | size |
 |-|-|-|-|-|-|
 
 - languages: 
+
 | lang_id | code | name | percent | official |
 |-|-|-|-|-|
 
 - economies: 
+
 | econ_id | code | year | income_group | gdp_percapita | gross_savings | inflation_rate | total_investment | unemployment_rate | exports | imports |
 |-|-|-|-|-|-|-|-|-|-|-|
 
 - cities: 
+
 | name | country_code | city_proper_pop | metroarea_pop | urbanarea_pop | 
 |-|-|-|-|-|
 
 - currencies: 
+
 | curr_id | code | basic_unit | curr_code | frac_unit | frac_perbasic |
 |-|-|-|-|-|-|
 
@@ -209,46 +220,57 @@ Final challenge (3)
 ### Dataset:
 
 - teams_germany: 
+
 | id | team_api_id | team_long_name | team_short_name |
 |-|-|-|-|
 
 - matches_germany: 
+
 | id | country_id | season | stage | date | hometeam_id | awayteam_id | home_goal | away_goal |
 |-|-|-|-|-|-|-|-|-|
 
 - teams_spain: 
+
 | id | team_api_id | team_long_name | team_short_name |
 |-|-|-|-|
 
 - matches_spain: 
+
 | id | country_id | season | stage | date | hometeam_id | awayteam_id | home_goal | away_goal |
 |-|-|-|-|-|-|-|-|-|
 
 - teams_italy: 
+
 | id | team_api_id | team_long_name | team_short_name |
 |-|-|-|-|
 
 - matches_italy: 
+
 | id | country_id | season | stage | date | hometeam_id | awayteam_id | home_goal | away_goal |
 |-|-|-|-|-|-|-|-|-|
 
 - matches_2013_2014: 
+
 | id | country_id | season | stage | date | hometeam_id | awayteam_id | home_goal | away_goal |
 |-|-|-|-|-|-|-|-|-|
 
 - match: 
+
 | id | country_id | season | stage | date | hometeam_id | awayteam_id | home_goal | away_goal |
 |-|-|-|-|-|-|-|-|-|
 
 - team: 
+
 | id | team_api_id | team_long_name | team_short_name |
 |-|-|-|-|
 
 - league: 
+
 | id | country_id | name |
 |-|-|-|
 
 - country: 
+
 | id | country | 
 |-|-|
 
