@@ -2176,22 +2176,24 @@ Add a subquery to the WHERE clause that calculates the overall average home goal
 Filter the main query for stages where the average home goals is higher than the overall average.
 Select the stage and avg_goals columns from the s subquery into the main query. */
 
-SELECT 
-	-- Select the stage and average goals from the subquery
-	stage,
-	ROUND(s.avg_goals,2) AS avg_goals
-FROM 
-	-- Select the stage and average goals in 2012/2013
-	(SELECT
-		 stage,
-         AVG(home_goal + away_goal) AS avg_goals
-	 FROM match
-	 WHERE season = '2012/2013'
-	 GROUP BY stage) AS s
-WHERE 
-	-- Filter the main query using the subquery
-	s.avg_goals > (SELECT AVG(home_goal + away_goal) 
-                    FROM match WHERE season = '2012/2013');
+SELECT
+	-- Select country, date, home, and away goals from the subquery
+    country,
+    date,
+    home_goal,
+    away_goal
+FROM
+	-- Select country name, date, home_goal, away_goal, and total goals in the subquery
+	(SELECT c.name AS country, 
+     	    m.date, 
+     		m.home_goal, 
+     		m.away_goal,
+           (m.home_goal + m.away_goal) AS total_goals
+    FROM match AS m
+    LEFT JOIN country AS c
+    ON m.country_id = c.id) AS subquery
+-- Filter by total goals scored in the main query
+WHERE total_goals >= 10;
 ```
 
 #### Add a subquery to the SELECT clause
